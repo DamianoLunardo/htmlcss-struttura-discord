@@ -73,12 +73,13 @@ body {
 .row-1 {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: rgb(238, 127, 222);
+	
 	color: black;
 	justify-content: center;
 }
 
 .col-8 {
+	background-color: pink;
 	flex-basis: 80%;
 	height: 240px;
 }
@@ -163,17 +164,24 @@ body {
 }
 
 /* footer 2nd part */
+.rowA {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(73, 175, 186);
+	color: black;
+	justify-content: space-between;
+}
+
 
 .footer2 {
 	padding-top: 30px;
-    border-color: red;
-	border-bottom: 10px;
+    border: solid gray 2px;
 }
 
 .col-3fa, .col-3fb {
 	flex-basis: 15%;
 	background-color: brown;
-	/*justify-content: space-between;*/
+	
 }
 
 
