@@ -173,9 +173,9 @@ body {
 .col-3fa, .col-3fb {
 	flex-basis: 15%;
 	background-color: brown;
-	justify-content: space-around ;
-	
+	/*justify-content: space-between;*/
 }
+
 
 
 	
