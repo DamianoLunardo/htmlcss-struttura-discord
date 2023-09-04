@@ -15,6 +15,10 @@ body {
     margin: 0 auto;
 }
 
+.main-content {
+	flex-grow: 1;
+}
+
 /* debug */
 
 .debug .page-header {
@@ -35,10 +39,10 @@ body {
 
 .debug [class^='col-'] {
 	min-height: 10px;
-	padding: 10px;
+	padding: 5px;
 	border: 2px solid rgb(0, 0, 0);
 	color: white;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 /* header*/
@@ -64,6 +68,96 @@ body {
 .align-text-header {
 	text-align: right;
 }
+
+/* first section*/
+
+/*.debug .section-1 {
+    padding: 20px;
+	background-color: rgb(11, 7, 243);
+	min-height: 240px;
+}*/
+
+.debug .section-1 {
+	padding: 20px;
+	background-color: rgb(59, 5, 237);
+	min-height: 230px;
+}
+
+
+.row-1 {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(238, 127, 222);
+	color: black;
+	justify-content: center;
+}
+
+.col-8 {
+	flex-basis: 80%;
+	height: 240px;
+}
+
+/* second section */
+/*
+.debug .section-2 {
+	padding: 20px;
+	min-height: 230px;
+}
+
+.row-2 {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(255, 255, 255);
+	color: black;
+	justify-content: center;
+}
+
+.col-6.a {
+	display: flex;
+	flex-basis: %;
+}
+
+.col-4.a {
+	display: flex;
+	flex-basis: %;
+}
+*/
+
+.debug .section-2 {
+	padding: 20px;
+	background-color: rgb(125, 119, 146);
+	min-height: 230px;
+}
+
+.row-2 {
+	display: flex;
+	flex-wrap: row;
+	
+	color: black;
+	justify-content: center;
+}
+
+.col-8a {
+	flex-basis: 100%;
+	
+	height: 240px;
+	background-color: blue;
+}
+
+.col-4a {
+	flex-basis: 50%;
+	height: 240px;
+	background-color: rgb(235, 128, 199);
+}
+
+
+
+
+
+
+
+
+
 
 
 
