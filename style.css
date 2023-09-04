@@ -147,7 +147,7 @@ body {
 .debug .page-footer {
     padding: 15px;
 	background-color: rgb(33, 48, 67);
-	min-height: 400px;
+	min-height: 300px;
 }
 
 .col-4f {
@@ -162,6 +162,24 @@ body {
 	background-color: aqua;
 }
 
+/* footer 2nd part */
+
+.footer2 {
+	padding-top: 30px;
+    border-color: red;
+	border-bottom: 10px;
+}
+
+.col-3fa, .col-3fb {
+	flex-basis: 15%;
+	background-color: brown;
+	justify-content: space-around ;
+	
+}
+
+
+	
+	
 
 
 
